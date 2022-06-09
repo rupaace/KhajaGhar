@@ -8,7 +8,6 @@
   
   body {
     font-family: Oxygen, sans-serif;
-    margin: 5px;
     background-color: #f4f8fa;
     overflow-x: hidden;
   }
@@ -128,6 +127,7 @@ footer {
   background: white;
   border-radius: 5px;
   
+  
 }
 
 .btn-cart:hover {
@@ -175,4 +175,25 @@ footer {
     margin-top: 10px;
     margin-bottom: 20px;
   }
+}
+.menu-list img {
+  width: 41px;
+  height: 41px;
+  object-fit: cover;
+}
+.count-number-input {
+  width: 24px;
+  text-align: center;
+  margin: 0 -4px;
+  background: #6c757d;
+  border: none;
+  color: #fff;
+  height: 24px;
+  border-radius: 0px;
+  vertical-align: bottom;
+}
+.count-number .btn {
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 0px;
 }
