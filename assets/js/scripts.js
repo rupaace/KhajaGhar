@@ -18,7 +18,7 @@
      },
      loop: true,
      lazyLoad: true,
-     autoplay: true,
+     autoplay: false,
      dots: false,
      autoplaySpeed: 1000,
      autoplayTimeout: 2000,
