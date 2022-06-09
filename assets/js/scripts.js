@@ -20,9 +20,7 @@
      lazyLoad: true,
      autoplay: false,
      dots: false,
-     autoplaySpeed: 1000,
-     autoplayTimeout: 2000,
-     autoplayHoverPause: true,
+     autoplayHoverPause: false,
      nav: true,
      navText:["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
    });
