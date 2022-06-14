@@ -127,3 +127,25 @@
       }
   });
 });
+
+const about = document.querySelector(".about");
+const btns = document.querySelectorAll(".item");
+const articles = document.querySelectorAll(".container");
+  about.addEventListener("click", function (e) {
+  const id = e.target.dataset.id;
+  console.log(id);
+  if (id) {
+    console.log('heli');
+    // remove selected from other buttons
+    btns.forEach(function (btn) {
+      btn.classList.remove("active");
+    });
+    e.target.classList.add("active");
+    // hide other articles
+    articles.forEach(function (article) {
+      article.classList.remove("active");
+    });
+    const element = document.getElementById(id);
+    element.classList.add("active");
+  }
+});
