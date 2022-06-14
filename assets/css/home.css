@@ -67,7 +67,9 @@
 .ace-category-item img:hover {
 	transform: scale(1.1);
 }
-
+.p-5.ace-invoice.bg-white.shadow-sm {
+  padding: 15px !important;
+}
 
 footer {
 
@@ -191,3 +193,4 @@ footer {
   font-size: 12px;
   border-radius: 0px;
 }
+
