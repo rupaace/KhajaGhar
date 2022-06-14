@@ -10,7 +10,6 @@
     font-family: Oxygen, sans-serif;
     background-color: #f4f8fa;
     overflow-x: hidden;
-    
   }
   ul,
   a,
@@ -79,7 +78,7 @@ footer {
   overflow: hidden;
   background: #424bf5;
   height: 80px;
-  width: 100vw;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   color: #fff;
