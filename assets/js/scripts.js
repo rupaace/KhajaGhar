@@ -16,7 +16,7 @@
          items: 8,
        },
      },
-     loop: true,
+     loop: false,
      lazyLoad: true,
      autoplay: false,
      dots: false,
